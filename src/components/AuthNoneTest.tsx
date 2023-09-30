@@ -15,7 +15,7 @@ import {
 } from '@thoughtspot/visual-embed-sdk/lib/src/react';
 
 init({
-  thoughtSpotHost: 'https://172.19.217.237:8443/',
+  thoughtSpotHost: 'https://172.19.225.202:8443/',
   authType: AuthType.None,
 });
 
@@ -26,6 +26,7 @@ export default function AuthNoneTest() {
 
   return (
     <div style={{ margin: '20px' }}>
+      <h1>Hello Vercel</h1>
       <Box sx={{ minWidth: 120 }}>
         <FormControl fullWidth>
           <InputLabel id='demo-simple-select-label'>Age</InputLabel>
